@@ -33,7 +33,7 @@ function Profiles() {
           aria-expanded={open ? 'true' : undefined}
         >
           <Avatar
-            sx={{ width: 32, height: 32 }}
+            sx={{ width: 34, height: 34 }}
             alt='lequan'
             src='https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/461265451_1303044141058486_7938247039163253639_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEzJwF1_4m-sNQnH2k6J1-RNkBtKGx2ZdE2QG0obHZl0QOWfZdYVoZwD4eThcBycdSP2t5xXvJZVv4zn52QfWHW&_nc_ohc=6zJmAi_88AcQ7kNvgGxJmeI&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=Ak4rE0UfBw0pJ1y5uacKqIB&oh=00_AYBnpB06bE7x1Bd_epODbrm3EI1D8fDv6VC1VLVBgsJ9DA&oe=674B8B1C'>
           </Avatar>
@@ -52,7 +52,7 @@ function Profiles() {
           <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> Profile
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Avatar /> My account
+          <Avatar sx={{ width: 28, height: 28, mr: 2 }}/> My account
         </MenuItem>
         <Divider />
         <MenuItem onClick={handleClose}>
