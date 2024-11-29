@@ -28,7 +28,7 @@ function Starred() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        endIcon=<ExpandMoreIcon/>
+        endIcon={<ExpandMoreIcon/>}
       >
         Starred
       </Button>

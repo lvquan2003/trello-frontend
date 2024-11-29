@@ -54,7 +54,7 @@ function AppBar() {
               border: 'none',
               '&:hover': { border: 'none' } }}
             variant='outlined'
-            startIcon = <LibraryAddIcon/>>Created</Button>
+            startIcon ={ <LibraryAddIcon/> }>Created</Button>
         </Box>
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>

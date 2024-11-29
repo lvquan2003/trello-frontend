@@ -70,7 +70,7 @@ function BoardBar({ board }) {
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
         <Button
           variant='outlined'
-          startIcon = <PersonAddIcon/>
+          startIcon = {<PersonAddIcon/>}
           sx={{
             color: 'white',
             borderColor: 'white',
