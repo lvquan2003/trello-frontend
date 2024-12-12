@@ -5,6 +5,6 @@ if (process.env.BUILD_MODE === 'dev') {
 }
 
 if (process.env.BUILD_MODE === 'production') {
-  apiRoot = 'https://trello-backend-11ar.onrender.com/'
+  apiRoot = 'https://trello-backend-11ar.onrender.com'
 }
 export const API_ROOT = apiRoot
