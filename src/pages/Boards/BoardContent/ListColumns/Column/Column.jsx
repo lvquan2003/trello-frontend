@@ -80,7 +80,7 @@ function Column( { column, createNewCard, deleteColumnDetails }) {
 
     }).then(() => {
       deleteColumnDetails(column._id)
-      console.log(column.title)
+      // console.log(column.title)
     })
       .catch(() => {})
   }
